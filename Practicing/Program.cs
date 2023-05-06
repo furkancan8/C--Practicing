@@ -11,10 +11,14 @@ namespace Practicing
             SomeLatterFind someLatterFind = new SomeLatterFind();
             RomanCalculation romanCalculation = new RomanCalculation();
             StonePaperScissors stonePaperScissors = new StonePaperScissors();
+            Interface ınterface = new Interface();  
+            ınterface
             //romanCalculation.RomanCalculationFonc();
             //someLatterFind.SomeLatterFindFonc();
-            stonePaperScissors.StonePaperScissorsFunc();
+            //stonePaperScissors.StonePaperScissorsFunc();
             
+            lion.AnimalAllName("asd","asd");
         }
+       
     }
 }
