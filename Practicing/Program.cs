@@ -11,13 +11,17 @@ namespace Practicing
             SomeLatterFind someLatterFind = new SomeLatterFind();
             RomanCalculation romanCalculation = new RomanCalculation();
             StonePaperScissors stonePaperScissors = new StonePaperScissors();
-            Interface ınterface = new Interface();  
-            ınterface
             //romanCalculation.RomanCalculationFonc();
             //someLatterFind.SomeLatterFindFonc();
             //stonePaperScissors.StonePaperScissorsFunc();
-            
-            lion.AnimalAllName("asd","asd");
+            double Price = 45;
+            double Kdv=0.15;
+            double CompanyShare = 0.10;
+            double KdvPrice = Price * Kdv;
+            double OtherTaxPrice = Price * CompanyShare;
+            double SellerPrice = Price - (OtherTaxPrice + KdvPrice);
+            Console.WriteLine("Satıcıya kalan miktar=" + SellerPrice);
+
         }
        
     }
